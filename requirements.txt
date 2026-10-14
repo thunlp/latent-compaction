@@ -1,0 +1,11 @@
+setuptools>=68,<81
+torch>=2.4,<3
+kvpress==0.5.4
+transformers==5.6.0
+rouge==1.0.1
+jieba>=0.42.1
+fuzzywuzzy==0.18.0
+PyYAML>=6
+datasets>=2.21
+huggingface-hub>=1.0
+pytest>=8,<10

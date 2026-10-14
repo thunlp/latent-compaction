@@ -1,0 +1,13 @@
+{
+  "budget": 1024,
+  "soft_slots": 256,
+  "stage1_steps": 1000,
+  "stage2_steps": 1000,
+  "rollout_tokens": 24,
+  "stage1_queries": 4096,
+  "stage1_batch_size": 128,
+  "stage2_batch_size": 4,
+  "stage1_learning_rate": 0.003,
+  "stage2_learning_rate": 0.0001,
+  "seed": 401
+}

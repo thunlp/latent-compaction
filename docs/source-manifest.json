@@ -1,0 +1,115 @@
+[
+  {
+    "source": "eviction-baselines/methods.py",
+    "release": "latent_compaction/eviction.py",
+    "source_sha256": "ded54db55302d74fcaa4aa2886a73008cc87489865562af5684ca14c174b02fb"
+  },
+  {
+    "source": "longbench-campaign/upstream/LongBench/metrics.py",
+    "release": "third_party/longbench/metrics.py",
+    "source_sha256": "e22e2a2662e0f7e683137fa3541f64edb6a801e9138d16d2f3459a6ab9941323"
+  },
+  {
+    "source": "longbench-campaign/upstream/LongBench/eval.py",
+    "release": "third_party/longbench/eval.py",
+    "source_sha256": "1a3acfc25d9b053e9bb75c479f7e385d0cb9989f0f7115346b7d632655967721"
+  },
+  {
+    "source": "longbench-campaign/upstream/LongBench/LICENSE",
+    "release": "third_party/longbench/LICENSE",
+    "source_sha256": "bf7f05f274d65931bdf14f060b6855f1c359b8424eb74fd3091d25de89d700c3"
+  },
+  {
+    "source": "longbench-campaign/upstream/LongBench/config/dataset2prompt.json",
+    "release": "third_party/longbench/config/dataset2prompt.json",
+    "source_sha256": "56d22ad4f382169c2b8a11ff4c982a4a1bea096c8152b0f0b85b64686b157c30"
+  },
+  {
+    "source": "longbench-campaign/upstream/LongBench/config/dataset2maxlen.json",
+    "release": "third_party/longbench/config/dataset2maxlen.json",
+    "source_sha256": "72966b3c0933e214591637fb085798c5e687ebff4ddaab5d99bbc31120532022"
+  },
+  {
+    "source": "attention-matching-campaign/upstream/compaction/algorithms/base.py",
+    "release": "third_party/attention_matching/compaction/algorithms/base.py",
+    "source_sha256": "0ad25ccb5d14c784e054604b370d418d9bffb946f884e51ffb10fc6353491990"
+  },
+  {
+    "source": "attention-matching-campaign/upstream/compaction/algorithms/highest_attention_keys.py",
+    "release": "third_party/attention_matching/compaction/algorithms/highest_attention_keys.py",
+    "source_sha256": "7444e73f3b03f35b09f015fd7000deedb27fe870e50bd629523b8eb32f043cf9"
+  },
+  {
+    "source": "attention-matching-campaign/upstream/LICENSE",
+    "release": "third_party/attention_matching/LICENSE",
+    "source_sha256": "d977c492c04057bc835f722f529092b71bd12e3c547be19445b8ff1fb2df059b"
+  },
+  {
+    "source": "eviction-baselines/upstream-snapkv/LICENSE",
+    "release": "third_party/licenses/SnapKV.txt",
+    "source_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  },
+  {
+    "source": "eviction-baselines/pyramidkv-reference/LICENSE",
+    "release": "third_party/licenses/PyramidKV.txt",
+    "source_sha256": "3b8c8e62a9a174e94e979aae4058f67bd956dec7b6a4d4d08fd7035dca960e12"
+  },
+  {
+    "source": "public-release/src/latent_compaction/__init__.py",
+    "release": "latent_compaction/__init__.py",
+    "source_sha256": "d874f0e441e5baf5cb0942ee56f1a74003a2a4cafb7cf7cf62e4cc8e819ed22c"
+  },
+  {
+    "source": "public-release/src/latent_compaction/cli.py",
+    "release": "latent_compaction/cli.py",
+    "source_sha256": "9fadc2f1e3dc244ee0884f17a2c9ce5a444c484f81a825f9bd6c2778424311c2"
+  },
+  {
+    "source": "public-release/src/latent_compaction/memory.py",
+    "release": "latent_compaction/memory.py",
+    "source_sha256": "509f60fe593e28189cc914d62f1ffd2579cb99e5e187d7f62e90e77524a48858"
+  },
+  {
+    "source": "public-release/src/latent_compaction/models.py",
+    "release": "latent_compaction/models.py",
+    "source_sha256": "0a790751f418acc374ac723f6209e3cd416e716ab46316a264c7bba2f5315417"
+  },
+  {
+    "source": "public-release/src/latent_compaction/prompts.py",
+    "release": "latent_compaction/prompts.py",
+    "source_sha256": "87f8cfd9423ce8ffbbc726bd34687e49a8c8f156a5c6e9271e7c78f41d3b38fe"
+  },
+  {
+    "source": "public-release/src/latent_compaction/selection.py",
+    "release": "latent_compaction/selection.py",
+    "source_sha256": "648b87b7a44021a6f18527208eaa156abbf9db94f119f5e26ad44e92f7fcc796"
+  },
+  {
+    "source": "public-release/src/latent_compaction/training.py",
+    "release": "latent_compaction/methods/latent.py",
+    "source_sha256": "3468e494235c73a2c39f605840c5ff949080370daebc4ed4b5545959a784bf8e"
+  },
+  {
+    "source": "full-ruler-campaign/summary-generate_one.py",
+    "release": "latent_compaction/methods/summary.py",
+    "source_sha256": "1500216c0a9b6cb7ed59d50024875d268a91fbf07b7dcc4a7556038e22cb7447"
+  },
+  {
+    "source": "longbench-qwen4b/run_summary.py",
+    "release": "latent_compaction/methods/summary.py",
+    "source_sha256": "74c5c2b2958f5b4c6928291edb8f5cf4a04f956e196755b5b196edddfe07fe96"
+  },
+  {
+    "source": "compression-sweep/methods_outer.py",
+    "release": "latent_compaction/eviction.py",
+    "source_sha256": "de6306046b2c19f6b78e082631314e5ffdd1876206c8a9c2b2348a47f5d63f55"
+  },
+  {
+    "source": "Latent_Compaction__arxiv_.pdf",
+    "source_page": 2,
+    "figure": 1,
+    "release": "assets/figure1.png",
+    "source_sha256": "515a506e5e54982f6a8de4e20872323ef77b84ec4cdaa256be8cde7b04945e11",
+    "modifications": "Filled the blue circular data and legend markers; preserved all geometry and other styles."
+  }
+]

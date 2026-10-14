@@ -1,0 +1,19 @@
+{
+  "format_version": 1,
+  "context": "The observatory is called Silver Ridge. Its telescope was built in 1998. The director studies comets.\nThe observatory is called Silver Ridge. Its telescope was built in 1998. The director studies comets.\nThe observatory is called Silver Ridge. Its telescope was built in 1998. The director studies comets.\nThe observatory is called Silver Ridge. Its telescope was built in 1998. The director studies comets.\nThe observatory is called Silver Ridge. Its telescope was built in 1998. The director studies comets.\nThe observatory is called Silver Ridge. Its telescope was built in 1998. The director studies comets.\nThe observatory is called Silver Ridge. Its telescope was built in 1998. The director studies comets.\nThe observatory is called Silver Ridge. Its telescope was built in 1998. The director studies comets.\n",
+  "test_queries": [
+    "\nQuestion: What is the observatory called?\nAnswer:"
+  ],
+  "metadata": {
+    "task": "example",
+    "record_id": "observatory",
+    "max_length": 512,
+    "references": [
+      [
+        "Silver Ridge"
+      ]
+    ],
+    "metric_kind": "any",
+    "generation_tokens": 32
+  }
+}
