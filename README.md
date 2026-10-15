@@ -6,7 +6,9 @@
 
 Tsinghua University
 
-[Quick Start](#quick-start) · [Reproduce Results](docs/reproduction.md) · [Adapt the Code](docs/adaptation.md) · [Citation](#citation)
+<a href="https://arxiv.org/abs/2610.20582"><img src="assets/paper-badge.svg" alt="Read the paper on arXiv: 2610.20582" width="220" height="32"></a>
+
+[🚀 Quick Start](#quick-start) · [📊 Reproduce Results](docs/reproduction.md) · [🛠️ Adapt the Code](docs/adaptation.md) · [📚 Citation](#citation)
 
 </div>
 
@@ -24,13 +26,13 @@ and **Phonebook Lookup** (bottom), using Qwen3-1.7B. The curves highlight the
 method's retrieval-accuracy advantage at tight cache budgets.
 
 <details>
-<summary>How the compacted cache is trained</summary>
+<summary>🔍 How the compacted cache is trained</summary>
 
 <img src="assets/overview.svg" alt="Initialize the cache, fit attention for 1,000 updates, and refine for 1,000 updates before reuse." width="100%">
 
 </details>
 
-## Installation
+## ⚙️ Installation
 
 Use Python 3.10+ and a PyTorch build suitable for your hardware.
 
@@ -49,7 +51,9 @@ directly from this checkout, without installing the project, registering a
 project-specific shell command, or changing shell profiles.
 [Environment and offline setup →](docs/environments.md)
 
-## Quick Start
+<a id="quick-start"></a>
+
+## 🚀 Quick Start
 
 Train and evaluate a document cache with the paper's **1,000 / 1,000** schedule:
 
@@ -68,7 +72,7 @@ python run.py --model qwen3-1.7b \
   --prompt 'Question: What is the observatory called? Answer:'
 ```
 
-## Reproduce Results
+## 📊 Reproduce Results
 
 Every experiment uses the **same method implementations**. Change the dataset,
 model, context lengths, and compression ratios through arguments:
@@ -94,7 +98,7 @@ budget-limited memory and reuses it across questions.
 Phonebook Lookup, context-length curves, compression sweeps, and additional models.
 No experiment-specific copies of the code are needed.
 
-## Code Layout
+## 🗂️ Code Layout
 
 ```text
 run.py                         # One runner for every method and dataset
@@ -121,7 +125,9 @@ configs/                       # Shared paper defaults and smoke settings
 Project code uses the [MIT License](LICENSE); bundled components retain their
 [upstream licenses](THIRD_PARTY_NOTICES.md).
 
-## How to Cite?
+<a id="citation"></a>
+
+## 📚 How to Cite?
 
 If you use this code in your research, please cite:
 
@@ -134,6 +140,5 @@ If you use this code in your research, please cite:
   archivePrefix = {arXiv},
   primaryClass = {cs.CL},
   url = {https://arxiv.org/abs/2610.20582},
-}
 }
 ```
