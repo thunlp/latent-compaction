@@ -127,8 +127,13 @@ If you use this code in your research, please cite:
 
 ```bibtex
 @misc{chen2026latentcompaction,
-  title  = {Latent Compaction with Test-Time Training},
+  title = {Latent Compaction with Test-Time Training},
   author = {Yingfa Chen and Xingyu Shen and Chaojun Xiao and Xu Han},
-  year   = {2026}
+  year = {2026},
+  eprint = {2610.20582},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.CL},
+  url = {https://arxiv.org/abs/2610.20582},
+}
 }
 ```
